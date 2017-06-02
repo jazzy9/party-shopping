@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+	<link href="/normalize.css" rel="stylesheet">
+	<style>
+		header {
+			text-align: center;
+			background: url(https://www.pukkaherbs.com/media/76569997/meadow-dew.jpg);
+			background-size:cover;
+			color: white;
+			size: 70px;
+		}
+		a {
+			color:white;
+		}
+		ul {
+			padding: 10px;
+			background:rgba(0,0,0,0.5);
+		}
+		li {
+			display:inline;
+			padding: 0px 10px 0px 10px;
+		}
+		article {
+			max-width: 500px;
+			padding: 20px;
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		@media (max-width: 500px) {
+			h1 {
+				font-size: 36px;
+			}
+			li {
+				display:block;
+				padding: 5px;
+			}
+		}
+	</style>
+
+<head>
+
+<body>
+	<header>
+		<h1>Jazzy site</h1>
+			<ul>
+			<li><a href="#">About me</a></li>
+			<li><a href="#">Yoga guide</a></li>
+			<li><a href="#">30 days of yoga</a></li>
+			<li><a href="#">Recipies</a></li>
+			</ul>
+	</header>
+	<article>
+		<h2>Yoga for the spine</h2>
+			<img src="http://www.yogawiz.com/images/yoga-poses2/simple-twist.jpg" alt= "gentle spinal twist">
+				<p>Among other things, yoga helps ease lower back pain by gently stretching and strengthening the muscles of the lower back and legs and increasing blood circulation, which in turn brings healing nutrients to the injured tissues</p>
+					<button>Like</button>
+
+	</article>
+
+<article>
+	<h2>Ashtanga -Yoga for strenght</h2>
+		<img src="http://www.ajarya.com/images/gallery/big/arjun/poses/veerabadrasana-I.jpg" alt="warrior pose alteration">
+
+			<p> Ashtanga is great for building strength in the arms, wrists, legs and core. Because of the repetition of the Surya Namaskar (sun salutations) and the constant vinyasas, the whole practice is a dynamic, flowing sequence that makes you stronger as well as more flexible.</p>
+				<button>like</button>
+</article>
+
+	<script> 
+	$("button").on("click",function()
+		{alert("Thank you")
+	});
+
+</body>
