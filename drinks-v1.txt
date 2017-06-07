@@ -1,0 +1,6 @@
+pepsi
+water
+beer 
+wine
+soda 
+ice cubes
